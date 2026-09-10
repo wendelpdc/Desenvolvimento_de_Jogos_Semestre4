@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dedwf0a6u8cpw"]
+
+[ext_resource type="Script" uid="uid://b06eqc6xvhgv" path="res://main.gd" id="1_0yjko"]
+[ext_resource type="Texture2D" uid="uid://bp0b1600r1gwf" path="res://img/sertão.png" id="1_nprla"]
+[ext_resource type="Texture2D" uid="uid://b3ctw5uq4mlok" path="res://img/gota.svg.svg" id="2_0yjko"]
+[ext_resource type="Texture2D" uid="uid://cmuij0vydacbd" path="res://img/robo_praieiro.png" id="4_56p18"]
+
+[node name="Node2D" type="Node2D" unique_id=1669328049]
+script = ExtResource("1_0yjko")
+
+[node name="Scenario" type="Sprite2D" parent="." unique_id=1070638966]
+position = Vector2(573, 335)
+scale = Vector2(0.25961757, 0.249247)
+texture = ExtResource("1_nprla")
+
+[node name="Gota" type="Sprite2D" parent="." unique_id=1214358598]
+position = Vector2(799, 111.00001)
+scale = Vector2(0.11437897, 0.113175675)
+texture = ExtResource("2_0yjko")
+
+[node name="RoboPraieiro" type="Sprite2D" parent="." unique_id=1711062570]
+position = Vector2(227.00002, 531)
+scale = Vector2(3.0781255, 2.3515635)
+texture = ExtResource("4_56p18")
+vframes = 4
